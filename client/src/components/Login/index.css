@@ -1,0 +1,78 @@
+.login__body {
+  width: 90%;
+  margin: auto;
+  margin-top: 60px;
+  display: flex;
+  max-width: 400px;
+  flex-direction: column;
+}
+
+.login__body > img {
+  max-width: 110px;
+  margin: auto;
+}
+
+.login__form {
+  padding: 30px;
+  background-color: white;
+  margin-top: 25px;
+  border: 1px solid lightgray;
+}
+
+.login__form > h2 {
+  margin-top: 0px;
+  font-weight: 400;
+}
+
+.login__form > div {
+  display: flex;
+  flex-direction: column;
+}
+
+.login__form > div > label {
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.login__form > div > input {
+  height: 40px;
+  font-size: 14px;
+  padding-left: 15px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.login__form > button {
+  margin-top: 20px;
+  width: 100%;
+  padding: 8px;
+  background-color: yellow;
+  border: 1px solid black;
+  font-size: 14px;
+}
+
+.login__form > button:hover {
+  background-color: black;
+  color: white;
+}
+
+.login__form > p {
+  font-size: 13px;
+  color: black;
+}
+
+.login__form > .crate_account_btn {
+  margin-top: 0px;
+  width: 100%;
+  padding: 8px;
+  background-color: lightgray;
+  border: 1px solid gray;
+  font-size: 14px;
+}
+
+.login__form > .error_message {
+  color: red;
+  line-height: 14px;
+  margin-top: 3px;
+  font-size: 13px;
+}

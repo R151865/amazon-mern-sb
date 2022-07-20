@@ -1,0 +1,72 @@
+.singup__body {
+  width: 90%;
+  max-width: 400px;
+  margin: auto;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.singup__body > img {
+  max-width: 110px;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.singup__form {
+  background-color: white;
+  padding: 20px;
+}
+
+.singup__form > h3 {
+  margin-top: 0px;
+  font-weight: 400;
+}
+
+.singup__form > div {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.singup__form > div > label {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.singup__form > div > input {
+  margin-top: 5px;
+  height: 30px;
+  padding-left: 10px;
+  outline-color: orange;
+}
+
+.singup__form > button {
+  margin-top: 15px;
+  background-color: yellow;
+  width: 100%;
+  padding: 8px;
+  border: 1px solid black;
+}
+
+.singup__form > button:hover {
+  background-color: black;
+  color: white;
+}
+
+.singup__form > p {
+  font-size: smaller;
+}
+
+.singup__form > p > a {
+  text-decoration: none;
+  color: blue;
+}
+
+.singup__form > .error_msg {
+  color: red;
+  font-size: 13px;
+  line-height: 14px;
+  margin-top: 4px;
+  margin-bottom: 0;
+}

@@ -1,0 +1,112 @@
+.admin-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 90vh;
+  background-color: white;
+  padding-bottom: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .admin-form {
+    flex-direction: row;
+  }
+}
+
+.admin-form > img {
+  width: 80%;
+}
+
+@media screen and (min-width: 768px) {
+  .admin-form > img {
+    width: 45%;
+  }
+}
+
+.admin-form__form {
+  width: 80%;
+  flex: 1;
+}
+
+.admin-form__form > button {
+  background-color: yellow;
+  padding: 10px;
+  border-radius: 5px;
+  width: 100%;
+  border: 1px solid black;
+}
+
+@media screen and (min-width: 768px) {
+  .admin-form__form > button {
+    width: 150px;
+    margin-left: auto;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .admin-form__form {
+    max-width: 500px;
+  }
+}
+
+.admin-form__form > div > label {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.admin-form__form > div > input {
+  height: 40px;
+  padding-left: 10px;
+  margin-top: 5px;
+  outline-color: orange;
+}
+
+.admin-form__form > div > textarea {
+  height: 100px;
+  padding-left: 10px;
+  margin-top: 5px;
+  outline-color: orange;
+}
+
+.admin-form__form > div > select {
+  height: 100px;
+  padding-left: 10px;
+  margin-top: 5px;
+  outline-color: orange;
+}
+
+.admin-form__form > div {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.admin-form__form > .price_percentage_rating > div > label {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.admin-form__form > .price_percentage_rating > div > input {
+  height: 40px;
+  padding-left: 10px;
+  margin-top: 5px;
+  outline-color: orange;
+}
+
+.admin-form__form > .price_percentage_rating > div {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.admin-form__form > .price_percentage_rating {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.form_error {
+  color: red;
+  font-size: 14px;
+  margin-top: 5px;
+}

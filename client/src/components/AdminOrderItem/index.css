@@ -1,0 +1,25 @@
+.admin_orders_updatesButton {
+  margin-top: auto;
+  /* margin-top: 10px; */
+  display: flex;
+  max-width: 400px;
+  justify-content: space-between;
+}
+.admin_orders_updatesButton > .order_deleteBtn {
+  background-color: red;
+  color: white;
+  font-size: 13px;
+  padding: 5px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid black;
+}
+
+.admin_orders_updatesButton > .order_updateBtn {
+  background-color: transparent;
+  font-size: 13px;
+  padding: 5px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid black;
+}

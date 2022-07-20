@@ -1,0 +1,29 @@
+.cart__header {
+  padding: 10px;
+  background-color: white;
+  margin-bottom: 15px;
+  flex: 1;
+}
+
+.cart__header > p {
+  margin-top: -10px;
+  background-color: white;
+}
+
+.cart__header > p > span {
+  color: darkblue;
+  font-weight: 500;
+  border-radius: 5px;
+  text-decoration: underline;
+}
+
+.cart__HeaderAndSubTotal {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+  .cart__HeaderAndSubTotal {
+    flex-direction: row;
+  }
+}

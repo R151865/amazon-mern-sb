@@ -1,0 +1,68 @@
+
+GET http://localhost:3005/feed
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNjJiZmRkMTRiNDQ5NjM3MGVhOGFiYWM2IiwibmFtZSI6InN1bHRoYW4iLCJlbWFpbCI6InN1bHRoYW5AZ21haWwuY29tIiwiaXNBZG1pbiI6dHJ1ZSwicGFzc3dvcmQiOiJzdWx0aGFuIiwiaWF0IjoxNjU3MTIzNzU2fQ.nb9_2TTNVixoHYYSVT9zkYf4qAhvBKJDxfcqbAsMPNE
+
+###
+GET http://localhost:3005/orders
+
+
+###
+GET http://localhost:3005/admin-orders
+
+###
+POST http://localhost:3005/orders
+Content-Type: application/json
+
+[
+    {
+        "product_id" :"62bfe226a5a8b7d028c7b192",
+        "quantity": 1
+    }
+]
+
+
+###
+POST http://localhost:3005/login
+Content-Type: application/json
+
+{
+    "username": "sulthan@gmail.com",
+    "password": "sulthan"
+}
+
+
+###
+POST http://localhost:3005/signup
+Content-Type: application/json
+
+{
+    "name": "mahi",
+    "username": "mahi1@gmail.com",
+    "password": "mahi",
+    "is_admin": false
+}
+
+
+
+###
+POST http://localhost:3005/products
+Content-Type: application/json
+
+{
+    "imageUrl": "https://images-eu.ssl-images-amazon.com/images/I/51u8ZRDCVoL._SY264_BO1,204,203,200_QL40_FMwebp_.jpg",
+    "title": "HP K500F Backlit Membrane Wired Lighting,",
+    "price": 30,
+    "rating": 3,
+    "percentageOff": 15
+}
+
+
+
+
+###
+GET http://localhost:3005/transactions
+
+
+###
+PUT http://localhost:3005/admin-transactions/62c5708b0949ef056eab3504
+

@@ -1,0 +1,19 @@
+
+.orders__body{
+    margin: auto;
+    width: 90%;
+    max-width: 1000px;
+}
+
+.orders__Container{
+    background-color: white;
+    margin-bottom: 20px;
+    padding:20px;
+    padding-left:25px;
+    padding-right:25px;
+}
+
+
+.orders__Container > p{
+margin-bottom: 15px;
+}

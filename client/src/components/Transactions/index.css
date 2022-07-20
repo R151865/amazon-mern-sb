@@ -1,0 +1,10 @@
+.transaction {
+  margin: auto;
+  width: 90%;
+  max-width: 1000px;
+  padding-bottom: 50px;
+}
+
+.transaction > h1 {
+  font-size: 20px;
+}

@@ -1,0 +1,10 @@
+.order_user_details {
+  display: flex;
+  margin-top: -5px;
+}
+
+.order_user_details > p {
+  font-size: 14px;
+  margin-right: 10px;
+  color: green;
+}

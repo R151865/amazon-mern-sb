@@ -1,0 +1,39 @@
+.trans__done {
+  margin-top: 10px;
+  background-color: lightgreen;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 12px;
+  font-weight: 600;
+  border: 0px;
+  outline: none;
+  margin-bottom: -5px;
+}
+
+.trans__rejected {
+  margin-top: 10px;
+  background-color: hotpink;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 12px;
+  font-weight: 600;
+  border: 0px;
+  outline: none;
+  margin-bottom: -5px;
+}
+
+.trans__pending {
+  margin-top: 10px;
+  background-color: lightskyblue;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 12px;
+  font-weight: 600;
+  border: 0px;
+  outline: none;
+  margin-bottom: -5px;
+}
+
+.selection_option {
+  background-color: white;
+}

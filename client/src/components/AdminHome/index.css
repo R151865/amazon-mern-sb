@@ -1,0 +1,25 @@
+.admin__head {
+  text-align: center;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.admin__header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: aquamarine;
+  height: 80px;
+}
+
+.admin__headerOption {
+  font-weight: 500;
+  margin-right: 15px;
+  border: 2px solid transparent;
+  padding: 4px;
+  border-radius: 4px;
+}
+
+.admin__headerOption:hover {
+  border: 2px solid black;
+}

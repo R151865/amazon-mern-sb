@@ -1,0 +1,93 @@
+.input-section {
+  display: flex;
+  flex-direction: column;
+  max-width: 350px;
+}
+
+.input-section > div {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-section > div > label {
+  font-size: 14px;
+}
+
+.input-section > div > input {
+  height: 30px;
+  padding-left: 10px;
+  font-size: 14px;
+  margin-bottom: 15px;
+  margin-top: 5px;
+}
+
+.input-section > textarea {
+  height: 100px;
+  padding: 4px;
+  padding-left: 10px;
+}
+
+.input-section > button {
+  width: 100px;
+  background-color: yellow;
+  border: 1px solid black;
+  margin-top: 10px;
+  padding: 5px;
+  margin-left: auto;
+  border-radius: 4px;
+}
+
+.input-section > button:hover {
+  background-color: black;
+  color: white;
+}
+
+.input-section > .error {
+  color: red;
+  line-height: 13px;
+  font-size: 13px;
+  margin-top: 4px;
+  margin-bottom: 0;
+}
+
+.address-results {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+}
+
+.address-results > p {
+  font-size: 14px;
+  margin-top: 0px;
+  margin-bottom: 8px;
+  padding: 0;
+  line-height: 14px;
+}
+
+.address-results > button {
+  width: 100px;
+  border-radius: 4px;
+  font-size: 13px;
+  margin-top: 15px;
+  margin-left: auto;
+}
+
+.image-loader {
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 25px;
+}
+
+.file_uploading {
+  margin-top: 10px;
+}
+
+.file_uploading > p {
+  background-color: greenyellow;
+  font-size: smaller;
+  color: black;
+  width: fit-content;
+  padding: 4px;
+  font-weight: 500;
+  border-left: 3px solid black;
+}

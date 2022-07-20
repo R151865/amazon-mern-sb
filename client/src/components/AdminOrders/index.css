@@ -1,0 +1,20 @@
+.add_ItemsSection {
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.add_ItemsSection > button {
+  margin-left: auto;
+  background-color: lightgreen;
+  padding: 5px;
+  border-radius: 6px;
+  width: 100px;
+  border: 1px solid black;
+}
+
+.admin-orders {
+  margin: auto;
+  width: 90%;
+  max-width: 1000px;
+}

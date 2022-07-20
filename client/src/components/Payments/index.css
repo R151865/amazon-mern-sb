@@ -1,0 +1,186 @@
+.payments > .checkout_count {
+  font-size: 20px;
+  text-align: center;
+}
+
+.payments > .checkout_count > span {
+  color: blueviolet;
+  font-weight: 500;
+}
+
+.payments__section {
+  background-color: white;
+  padding: 10px;
+  display: flex;
+  margin-bottom: 5px;
+}
+
+@media screen and (max-width: 576px) {
+  .payments__section {
+    flex-direction: column;
+  }
+}
+
+.payments__section > h3 {
+  font-size: 16px;
+  width: 20%;
+  margin-right: 20px;
+}
+
+.payments__sectionRight {
+  flex: 1;
+  padding: 10px;
+}
+
+.payments__sectionRight > p {
+  margin-top: -10px;
+  font-size: 15px;
+}
+
+.buy_now_container {
+  border: 1px solid lightgray;
+  padding: 20px;
+  padding-bottom: 20px;
+  padding-top: 5px;
+  max-width: 300px;
+}
+
+.buy_now_container > p {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.buy_now_container > button {
+  background-color: yellow;
+  width: 100%;
+  padding: 5px;
+  color: black;
+  border: 1px solid black;
+}
+
+.buy_now_container > button:hover {
+  background-color: black;
+  color: white;
+}
+
+.popup-content {
+  background-color: hsla(0, 26%, 7%, 0.916);
+  padding: 20px;
+  border-radius: 10px;
+  width: 70%;
+  max-width: 800px;
+}
+
+.popup-styling {
+  color: white;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  /* background-color: red; */
+}
+
+.popup-styling > .popup-styling-para {
+  background-color: rgb(8, 28, 48);
+
+  border-left: 4px solid blue;
+  padding: 5px;
+  padding-left: 10px;
+  margin-bottom: 0px;
+  margin-top: 10px;
+}
+
+.popup-styling > .popup-styling-delivery-address {
+  margin-top: 10px;
+  margin-bottom: -5px;
+}
+
+.popup-styling > div {
+  display: flex;
+  margin-top: auto;
+}
+
+.popup-styling > div > button {
+  background-color: yellow;
+  padding: 5px;
+  border: 1px solid black;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 5px;
+}
+
+.popup-styling > div > .cancel-buttton {
+  background-color: transparent;
+  padding: 5px;
+  border: 1px solid white;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  color: white;
+}
+
+.popup-styling > .purchase_err {
+  color: red;
+  background-color: white;
+  padding: 5px;
+  width: fit-content;
+  font-size: 14px;
+  margin-top: auto;
+}
+
+.animated-success-purchase {
+  width: 80%;
+  max-width: 600px;
+  color: white;
+  background-color: rgba(62, 57, 57, 0.958);
+  padding: 10px;
+  border-radius: 10px;
+  position: fixed;
+  z-index: 11;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.animated-success-purchase > img {
+  width: 70%;
+  max-width: 250px;
+  align-self: center;
+  border-radius: 50%;
+}
+
+/* @media screen and (max-width:576px){
+  .animated-success-purchase > img {
+    height: 250px;
+    width: ;
+    width: fit-content;
+    align-self: center;
+    border-radius: 50%;
+  }
+} */
+
+.animated-success-purchase > p {
+  margin-left: auto;
+  margin-top: 20px;
+  font-size: small;
+}
+
+.animated-success-purchase > button {
+  color: white;
+  background-color: transparent;
+  border: 0;
+  align-self: flex-end;
+}
+
+.note-for-transaction {
+  background-color: greenyellow;
+  width: fit-content;
+  font-weight: 500;
+  font-size: small;
+  padding: 4px;
+  border-left: 3px solid black;
+}

@@ -1,0 +1,84 @@
+.product {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 20px;
+  flex: 1;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.product__title {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.product__price {
+  margin-top: -10px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  font-weight: 500;
+}
+
+.product__price > strong {
+  font-size: 22px;
+}
+
+.product__price > .percentage_MRP {
+  font-size: 13px;
+  margin-left: 10px;
+}
+
+.product__price > .percentage_off {
+  font-size: 15px;
+  margin-left: 10px;
+  background-color: red;
+  padding: 5px;
+  color: white;
+  border-radius: 3px;
+}
+
+.product__price > .percentage_MRP > .percentage_off_value {
+  text-decoration-line: line-through;
+}
+
+.product > img {
+  /* max-height: 250px; */
+  /* width: fit-content; */
+  max-width: 200px;
+  margin-top: 20px;
+  align-self: center;
+  margin-bottom: auto;
+}
+
+.product > button {
+  background-color: yellow;
+  font-size: 14px;
+  padding: 4px;
+  width: 150px;
+  cursor: pointer;
+  outline: none;
+  margin-top: 20px;
+  align-self: center;
+}
+
+.product > button:hover {
+  background-color: black;
+  color: white;
+}
+
+.product__stars {
+  margin-top: -20px;
+}
+
+.product__popup {
+  background-color: aquamarine;
+  width: fit-content;
+  padding: 10px;
+  border-radius: 10px;
+  position: fixed;
+}
